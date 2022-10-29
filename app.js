@@ -41,7 +41,7 @@ app.use("/api", contactRoute);
 
 
 //PORT
-const port =  process.env.port || 8000;
+var port = process.env.PORT || 8000;
 
 //Staring Server
 app.listen(port,()=>{
